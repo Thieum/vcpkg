@@ -6,7 +6,7 @@ vcpkg_from_github(
     HEAD_REF master
 )
 
-file(INSTALL "${SOURCE_PATH}/CL3" DESTINATION ${CURRENT_PACKAGES_DIR}/include)
+file(INSTALL "${SOURCE_PATH}/CL" DESTINATION ${CURRENT_PACKAGES_DIR}/include/CL3)
 
 # OpenCL C++ headers
 vcpkg_from_github(
